@@ -33,7 +33,7 @@ public class Idomunka {
         System.out.println(msg);
         return scanner.nextLine();
     }
-    private double szamol(double megMunkalthossz, double fordulatonkentiElotolas, double foorsoFordulatszam){
+    public double szamol(double megMunkalthossz, double fordulatonkentiElotolas, double foorsoFordulatszam){
         double megmunkalasiIdo=megMunkalthossz/(fordulatonkentiElotolas*foorsoFordulatszam);
         return megmunkalasiIdo;
     }
